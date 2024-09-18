@@ -14,7 +14,7 @@ public class GoogleAgendaController {
     @Autowired
     private GoogleAgendaService googleAgendaService;
 
-    private String calendarId = "ggabrieltoyo@gmail.com";
+    private String calendarId = "<Calendar-ID>";
 
     @PostMapping("/agendar")
     public ResponseEntity teste() {
